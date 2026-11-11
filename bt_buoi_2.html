@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CV của Nguyễn Văn A</title>
+
+<!-- YÊU CẦU 1: FAVICON (biểu tượng nhỏ trên tab trình duyệt) -->
+      <link rel="icon" type="image/" href="favicon.ico">
+
+<!-- YÊU CẦU 5: THẺ STYLE, CLASS VÀ ID -->
+    <style>
+        #ten-chinh {
+            text-align: center;
+            color: #1a5fb4;
+        }
+
+        .noi-bat {
+            color: #e01b24;
+            font-weight: bold;
+        }
+
+        .anh-dai-dien {
+            display: block;
+            margin:auto;
+            width: 160px;
+            height: 160px;
+            border: 4px solid #1a5fb4;
+        }
+        
+        .hang-chan {
+            background-color: #e8f0fe;
+        }
+
+        table {
+            width: 100%;
+            border: 2px solid #1a5fb4;
+            border-collapse: collapse;
+            text-align: center;
+        }
+
+        th, td {
+            border: 1px solid #1a5fb4;
+            padding: 8px;
+        }
+
+        th {
+            background-color: #1a5fb4;
+            color: white;
+        }
+
+    </style>
+</head>
+
+<body>
+<!-- ================= GIỚI THIỆU (từ buổi 1) ================= -->
+    <div>
+        <h1 id="ten-chinh">Nguyễn Văn A</h1>
+        <img class="anh-dai-dien" alt="Ảnh đại diện" src="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='160' height='160'><rect width='160' height='160' fill='%231a5fb4'/><text x='80' y='105' font-size='80' text-anchor='middle' fill='white' font-family='Arial'>A</text></svg>">
+        <p style="text-align:center;"><i>"Mỗi ngày học một chút, mỗi ngày tiến một bước."</i></p>
+
+        <h2>Giới thiệu bản thân</h2>
+<!-- YÊU CẦU 4: BLOCK VÀ INLINE -->
+        <p>
+            Xin chào, mình là <b>Nguyễn Văn A</b>, sinh viên năm nhất, quê ở
+            <span class="noi-bat">Hà Nội</span>. Mình đang học <u>HTML</u> và rất thích <i>làm website</i>. Bạn có thể xem thêm tại<a href="https://www.w3schools.com/html/" target="_blank">W3Schools</a>.
+        </p>
+        <div>
+            <span class="noi-bat">Quê quán:</span>
+            <span>Hà Nội</span> |
+            <span class="noi-bat">Điều đặc biệt:</span>
+            <span>Ngủ 12 tiếng/ngày vẫn thấy thiếu 😴</span>
+        </div>
+    </div>
+
+<!-- ================= YÊU CẦU 2: BẢNG THỜI KHÓA BIỂU ================= -->
+    <div>
+        <h2 >Thời khóa biểu</h2>
+
+        <table>
+            <caption>Thời khóa biểu tuần này</caption>
+            <tr>
+                <th colspan="4">Lịch học trong tuần</th>
+            </tr>
+            <tr>
+                <th>Buổi</th>
+                <th>Thứ 2</th>
+                <th>Thứ 4</th>
+                <th>Thứ 6</th>
+            </tr>
+            <tr class="hang-chan">
+                <td rowspan="2">Sáng</td>
+                <td>Tin học</td>
+                <td>Toán</td>
+                <td>Tiếng Anh</td>
+            </tr>
+            <tr>
+                <td>Lập trình web</td>
+                <td>Vật lý</td>
+                <td>Thể dục</td>
+            </tr>
+            <tr class="hang-chan">
+                <td >Chiều</td>
+                <td>Nghỉ</td>
+                <td>Câu lạc bộ</td>
+                <td>Tự học</td>
+            </tr>
+        </table>
+    </div>
+
+<!-- ================= YÊU CẦU 3: DANH SÁCH ================= -->
+    <div>
+        <h2>Sở thích</h2>
+        <ul>
+            <li>Nghe nhạc</li>
+            <li>Chơi game</li>
+            <li>Ăn uống: <b>trà sữa</b>, <b>phở</b>, <b>bánh mì</b></li>
+        </ul>
+
+        <h2>Mục tiêu / Kế hoạch</h2>
+        <ol>
+            <li>Hoàn thành khóa học HTML &amp; CSS</li>
+            <li>Đạt IELTS 6.5</li>
+            <li>Làm được một website cá nhân hoàn chỉnh</li>
+            <li>Trở thành lập trình viên</li>
+        </ol>
+    </div>
+
+<!-- ================= YÊU CẦU 6: IFRAME ================= -->
+    <div >
+        <h2 >Nơi mình sống (Google Maps)</h2>
+        <iframe
+            src="https://www.google.com/maps?q=Hanoi,Vietnam&output=embed"
+            width="100%" height="300" style="border:0;" loading="lazy"
+            title="Bản đồ Hà Nội"></iframe>
+
+        <h2>Video yêu thích (YouTube)</h2>
+        <iframe
+            width="100%" height="315"
+            src="https://www.youtube.com/embed/jNQXAC9IVRw"
+            title="Video YouTube"></iframe>
+    </div>
+
+<!-- ================= LIÊN HỆ ================= -->
+    <div>
+        <h2>Liên hệ</h2>
+        <ul>
+            <li>Email: <a href="mailto:nguyenvana@example.com">nguyenvana@example.com</a></li>
+            <li>Facebook: <a href="https://www.facebook.com/" target="_blank">facebook.com/nguyenvana</a></li>
+    </div>
+
+</body>
+</html>
